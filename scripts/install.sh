@@ -18,6 +18,7 @@ function install {
 }
 
 # Basics
+install build-essential
 install awscli
 install chrome-gnome-shell
 install curl
