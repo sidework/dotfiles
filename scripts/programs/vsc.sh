@@ -15,3 +15,5 @@ function install {
 }
 
 install ms-python.python
+
+xdg-mime default code.desktop text/plain
