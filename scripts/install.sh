@@ -28,6 +28,8 @@ install nmap
 install openvpn
 install tree
 install wget
+install ecryptfs-utils
+intsall cryptsetup
 
 # Run all scripts in programs/
 for f in programs/*.sh; do bash "$f" -H; done
@@ -35,3 +37,10 @@ for f in programs/*.sh; do bash "$f" -H; done
 # Get all upgrades
 sudo apt upgrade -y
 sudo apt autoremove -y
+
+
+#notes:
+# fix dual boot time:
+# timedatectl set-local-rtc 1
+
+
